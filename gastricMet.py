@@ -55,7 +55,6 @@ from sklearn.model_selection import StratifiedShuffleSplit, GridSearchCV, cross_
 from eli5.sklearn import PermutationImportance
 from IPython.display import display, Image
 from sklearn.model_selection import cross_val_score,StratifiedKFold
-import imblearn
 st.title('Application of Machine Learning Methods to Predict Distant Metastases in Gastric Cancer Patients'.center(33, '-'))
 classes = {0:'NLM',1:'LM'}
 st.sidebar.expander('')     
