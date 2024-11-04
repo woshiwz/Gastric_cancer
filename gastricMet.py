@@ -21,16 +21,12 @@ from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split#模型选择将数据集分为测试集和训练集
 from sklearn.metrics import accuracy_score#模型最终的预测准确度分数
-from sklearn.datasets import load_iris#加载鸢尾花集数据
-from sklearn.datasets import load_boston#加载鸢尾花集数据
-from sklearn.datasets import load_breast_cancer#加载鸢尾花集数据
 import matplotlib#加载绘图工具
 from xgboost import plot_importance#加载极限梯度提升机中重要性排序函数
 from matplotlib import pyplot as plt
 from sklearn.metrics import accuracy_score   # 准确率
 import scipy.stats as stats
 from sklearn import metrics
-from sklearn.tree import export_graphviz
 from sklearn.tree import export_graphviz
 from sklearn import metrics
 from sklearn.metrics import roc_curve, auc
