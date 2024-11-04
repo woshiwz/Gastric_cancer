@@ -73,7 +73,7 @@ Chemotherapy=st.sidebar.selectbox("Chemotherapy",['No','Yes'])
 Chemotherapy_map={'No':0,'Yes':1}
 Tumorsize=st.sidebar.selectbox("Tumorsize",['<5cm',"≥5cm"])
 Tumorsize_map={'<5cm':0,'≥5cm':1}
-filename = 'modelGastric.txt'
+filename = 'modelGastric1.txt'
 x = []
 x.extend([Age_map[Age],Race_map[Race],
          Grade_map[Grade],T_stage_map[T_stage],Radiation_map[Radiation],
